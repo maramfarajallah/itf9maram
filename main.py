@@ -1,18 +1,55 @@
-# This is a sample Python script.
+# my_str ="welcome gsg itf 9 2023"
+# print(my_str)
+# print(my_str[0:7])
+#
+#
+# # num1 = 5 ;
+# # num2 = 6
+# # def add() :
+# # return  sum(num1 , num2 )
+# my_email = "maramibrahem.com"
+# my_email2 = "khsugkjsaljbcywow.com"
+# print(my_email)
+# print(my_email.replace(my_email[2:-2],  "*********************"))
+# print(my_email2.replace(my_email2[2:-2],"*********************"))
+# x = 10
+# y = 20
+# total = 10 + 20
+# print(total)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def add():
+    num1 = 20
+    num2 = 30
+    sum = num1 + num2
+    print(sum)
+
+add()
+
+def sub():
+    num1 = 20
+    num2 = 30
+    total = num1 - num2
+    print(total)
+
+sub()
+
+def div():
+    num1 = 8
+    num2 = 2
+    total = num1 / num2
+    print(total)
+
+div()
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def mul():
+       num1 = 8
+       num2 = 2
+       total = num1 * num2
+       print(total)
 
-    print("maram")
+mul()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
